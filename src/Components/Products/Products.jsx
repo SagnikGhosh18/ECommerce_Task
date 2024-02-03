@@ -5,9 +5,17 @@ export default function Products() {
   const [products, setProducts] = useState([])
 
   async function getProducts() {
-    const response = await fetch('https://localhost:5000/products')
-    const data = await response.json()
-    setProducts(data.products)
+    try {
+      const response = await fetch('http://localhost:5000/products'); // Ensure correct protocol
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      // const data = await response.json();
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.error("Failed to fetch products:", error);
+    }
   }
 
   useEffect(() => {
