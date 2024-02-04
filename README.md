@@ -17,14 +17,19 @@ The user of this react application should be able to view all the products. The 
 ## Project UI
 
 ### Login/Register page
+![image](https://github.com/SagnikGhosh18/ECommerce_Task/assets/77972501/3f933875-2dcb-43e7-bd87-b9c3f775fc3a)
 
 ### Home page
-
-### Product detail page
+![image](https://github.com/SagnikGhosh18/ECommerce_Task/assets/77972501/0608e190-5b7c-4fa8-91e1-10e542cf52eb)
 
 ### Cart page
+![image](https://github.com/SagnikGhosh18/ECommerce_Task/assets/77972501/c7e12830-dc76-4856-8b71-229188427920)
+
+### Adding to favorites
+![image](https://github.com/SagnikGhosh18/ECommerce_Task/assets/77972501/a15bb32d-0842-4f88-bcdf-b2f990cdcab1)
+
 
 ## Improvements
 
-1. Understanding more about the API to understand routes about the user login.register functionality.
+1. Understanding more about the API to understand routes about the user login/register functionality.
 2. Product detail page was incomplete.
