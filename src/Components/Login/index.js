@@ -13,7 +13,7 @@ export const Login = () => {
   }
   return (
     <>
-      <div class="flex items-center justify-center min-h-screen bg-blue-300">
+      <div class="flex items-center justify-center min-h-screen">
         <div class="w-full max-w-xs m-4">
           <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
             <div class="mb-4">
