@@ -1,7 +1,9 @@
 {
   "users": [
     {
-      "id": "c439"
+      "id": "c439",
+      "email":"abc@example.com",
+      "pass":"pass"
     },
     {
       "id": "b82b"
