@@ -31,5 +31,5 @@ The user of this react application should be able to view all the products. The 
 
 ## Improvements
 
-1. Understanding more about the API to understand routes about the user login/register functionality.
-2. Product detail page was incomplete.
+1. Product detail page was incomplete.
+2. Implement proper authentication system
